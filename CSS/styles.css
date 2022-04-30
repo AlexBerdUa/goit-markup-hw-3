@@ -9,7 +9,6 @@
 }
 
 body{
-    box-sizing: 1230px;
     font-family: 'Roboto', sans-serif;
     color: var(--title-color);
     background-color: var(--neutral-color);
@@ -26,11 +25,20 @@ letter-spacing: 0.03em;
 ul{
     list-style: none;
 }
+.container{
+    width: 1230px;
+    outline: 2px solid tomato;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
 
 /**************************** Nav */
 .page-header{
     padding-top: 24px;
     padding-bottom: 25px;
+    
 }
 .portfolio-ph{
     margin-bottom: 94px;
@@ -43,6 +51,7 @@ ul{
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
+    padding-inline-start: 40px;
  }
 .accent {
     color: var(--logo-color);
@@ -144,6 +153,7 @@ ul{
     line-height: 1.17;
     text-align: center;
     margin-bottom: 50px;
+    margin-top: 0;
 }
 .services{
     margin-bottom: 94px;
@@ -164,6 +174,7 @@ ul{
     line-height: 1.17;
     text-align: center;
     margin-bottom: 50px;
+    margin-top: 0;
 }
 .name-title{
     color: var(--title-color);
@@ -186,6 +197,14 @@ ul{
 /************************ Footer */
 .footer {
     background-color: var(--logo-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.logo-footer{
+    margin-bottom: 20px;
+}
+.footer-cn{
+    margin-bottom: 9px;
 }
 .accent-footer,
 .adress{
