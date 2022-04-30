@@ -28,9 +28,7 @@ ul{
 }
 
 /**************************** Nav */
-.cont-nav{
-    box-sizing: 1230px;
-}
+
 .logo {
     color: var(--accent-color);
     font-family: 'Raleway', sans-serif;
@@ -69,6 +67,8 @@ ul{
 /**************************** Order */
 .order {
     background-color: var(--logo-color);
+    display: inline-block;
+    text-align: center;
 }
 .order-title {
     color: var(--neutral-color);
@@ -79,7 +79,7 @@ ul{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 30px;
 }
 .order-link {
     font-family: inherit;
@@ -95,6 +95,7 @@ ul{
     cursor:pointer;
     min-width: 200px;
     border: 1px rgba(238, 238, 238, 1);
+    
 }
 .order-link:hover {
     color: var(--neutral-color);
