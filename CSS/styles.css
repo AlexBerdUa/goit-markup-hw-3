@@ -28,6 +28,13 @@ ul{
 }
 
 /**************************** Nav */
+.page-header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+.portfolio-ph{
+    margin-bottom: 94px;
+}
 
 .logo {
     color: var(--accent-color);
@@ -67,8 +74,8 @@ ul{
 /**************************** Order */
 .order {
     background-color: var(--logo-color);
-    display: inline-block;
     text-align: center;
+    margin-bottom: 94px;
 }
 .order-title {
     color: var(--neutral-color);
@@ -80,6 +87,8 @@ ul{
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 30px;
+    width: 696px;
+    
 }
 .order-link {
     font-family: inherit;
@@ -90,29 +99,42 @@ ul{
     line-height: 1.86;
     display: flex;
     align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     cursor:pointer;
-    min-width: 200px;
-    border: 1px rgba(238, 238, 238, 1);
-    
+    border: 1px var(--border);
+    border-radius: 4px;
+    display: inline-block;
 }
 .order-link:hover {
     color: var(--neutral-color);
 }
 /**************************** Features */
+.section-features{
+    margin-bottom: 94px;
+}
+.features{
+    margin-bottom: 94px;
+}
 .title{
     color: --var(--title-color);
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 .text{
     color: var(--text-color);
     line-height: 1.71;
+    margin-top: 0;
+    margin-bottom: 94px;
+
     /* or 171% */
 }
 /**************************** Services */
+.section-services{
+    margin-bottom: 94px;
+}
 .section-services .title-services{
     color: var(--title-color);
 }
@@ -121,17 +143,27 @@ ul{
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    margin-bottom: 50px;
+}
+.services{
+    margin-bottom: 94px;
 }
 /**************************** Team */
 .section-team {
     background-color:var(--neutral-bgc);
+    padding: 94px 0px;
 }
+.im-team{
+    margin-bottom: 30px;
+}
+
 .team-title{
     color: var(--title-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    margin-bottom: 50px;
 }
 .name-title{
     color: var(--title-color);
@@ -139,12 +171,17 @@ ul{
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
+    margin-bottom: 10px;
 }
 .team-text{
     color: var(--text-color);
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
+    margin-bottom: 30px;
+}
+.team-list{
+    
 }
 /************************ Footer */
 .footer {
@@ -155,8 +192,15 @@ ul{
     color: var(--neutral-color);
     text-decoration: none;
 }
-    
+/************************portfolio */
+ .protfilio-container{
+     margin-bottom: 94px;
+ }   
 /*********************** Buttons */
+.button-list{
+    margin-bottom: 34px;
+    border: 1px var(--border);
+}
 
 .button{
     font-family: 'Roboto',
@@ -167,6 +211,8 @@ ul{
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
+
+    display: inline-block;
     border-radius: 4px;
     padding: 6px, 22px;
     text-align: center;
@@ -178,6 +224,11 @@ ul{
     background-color: var(--accent-color);
     color:var(--neutral-color);
     cursor:pointer;
+}
+/* Everything */
+.no-padding{
+    padding-top: 0;
+    padding-bottom: 0;
 }
 .project-title{
     font-weight: 700;
@@ -191,10 +242,10 @@ ul{
     line-height: 1.86;
 }
 .list{
-    padding: 0;
+    /* padding: 0;
     margin: 0;
     list-style: none;
-}
+} */
 
 
 
