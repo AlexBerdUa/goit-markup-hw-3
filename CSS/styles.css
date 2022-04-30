@@ -5,9 +5,11 @@
     --neutral-color:#fff;
     --logo-color:#2F303A;
     --neutral-bgc: #F5F4FA;
+    --border: #EEEEEE;
 }
 
 body{
+    box-sizing: 1230px;
     font-family: 'Roboto', sans-serif;
     color: var(--title-color);
     background-color: var(--neutral-color);
@@ -26,6 +28,9 @@ ul{
 }
 
 /**************************** Nav */
+.cont-nav{
+    box-sizing: inherit;
+}
 .logo {
     color: var(--accent-color);
     font-family: 'Raleway', sans-serif;
@@ -85,7 +90,9 @@ ul{
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    cursor:pointer
+    cursor:pointer;
+    min-width: 200px;
+    border: 1px rgba(238, 238, 238, 1);
 }
 .order-link:hover {
     color: var(--neutral-color);
@@ -159,6 +166,9 @@ ul{
     text-align: center;
     border-radius: 4px;
     padding: 6px, 22px;
+    text-align: center;
+    min-width: 73px;
+    border: 1px var(--border);
 }
 .button:hover,
 .button:focus {
