@@ -29,7 +29,7 @@ ul{
 
 /**************************** Nav */
 .cont-nav{
-    box-sizing: inherit;
+    box-sizing: 1230px;
 }
 .logo {
     color: var(--accent-color);
