@@ -287,17 +287,34 @@ ul{
      margin-bottom: 94px;
  }   
 /***********************Projects Buttons */
+.project-cont{
+    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 
 .projects{
     display: flex;
     flex-wrap: wrap;
+    /* justify-content:space-around; */
 }
-.project-item{
+.project-el {
+    width: 380px;
+    margin-right: 30px;
+}
+
+.project-el:nth-child(3n){
+    margin-right: 0;
+}
+/* .project-item{
     margin-right: 30px;
 }
 .pi-last{
     margin-right: 0;
-}
+} */
 
 .button-list{
     display: flex;
@@ -306,6 +323,7 @@ ul{
 }
 
 .button{
+
     font-family: 'Roboto',
     sans-serif;
     background-color: var(--neutral-bgc);
