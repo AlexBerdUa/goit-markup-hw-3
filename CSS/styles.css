@@ -35,11 +35,10 @@ ul{
     list-style: none;
 }
 .container{
-    width: 1230px;
-    /* outline: 2px solid tomato; */
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 0;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
     
 }
 
@@ -233,6 +232,7 @@ ul{
 .section-team {
     background-color:var(--neutral-bgc);
     padding: 94px 0px;
+    margin-bottom: 0;
 }
 .im-team{
     margin-bottom: 30px;
@@ -283,9 +283,13 @@ ul{
     text-decoration: none;
 }
 /************************portfolio */
- .protfilio-container{
-     margin-bottom: 94px;
- }   
+.portfolio-con{
+    margin-bottom: 94px;
+}
+.portfolio-buttons{
+    margin-bottom: 94px;
+}
+ 
 /***********************Projects Buttons */
 .project-cont{
     width: 1230px;
