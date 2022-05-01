@@ -8,6 +8,10 @@
     --border: #EEEEEE;
 }
 
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     color: var(--title-color);
@@ -16,6 +20,11 @@ body{
     font-size: 14px;
     }
 
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
 address{
 font-style: normal;
 line-height: 1.71;
@@ -34,11 +43,21 @@ ul{
     
 }
 
+.con-head{
+    display: flex;
+    align-items: center;
+}
+
 /**************************** Nav */
 .page-header{
     padding-top: 24px;
     padding-bottom: 25px;
     
+}
+
+.nav-con{
+    display: flex;
+    align-items: center;
 }
 .portfolio-ph{
     margin-bottom: 94px;
@@ -70,6 +89,7 @@ ul{
 
 .site-nav{
     display: flex;
+    margin-left: 93px;
 }
 .site-nav .item{
     margin-right: 51px;
@@ -94,8 +114,12 @@ ul{
 
 .contact-nav{
     display: flex;
+    margin-left: auto;
 }
-.contact-nav .item +.item{
+/* .contact-nav .item + .item{
+    margin-left: 50px;
+} */
+.contact-nav .last-item{
     margin-left: 50px;
 }
 
@@ -149,6 +173,7 @@ ul{
     margin-bottom: 94px;
 }
 .features{
+    display: flex;
     margin-bottom: 94px;
 }
 .title{
@@ -185,7 +210,26 @@ ul{
 .services{
     margin-bottom: 94px;
 }
+.services-list{
+    display: flex;
+}
+.service-item{
+    margin-right: 30px;
+}
+.si-last{
+    margin-right: 0;
+}
 /**************************** Team */
+.team-list{
+    display: flex;
+}
+.team-item{
+    margin-right: 30px;
+}
+.ti-last{
+    margin-right: 0;
+}
+
 .section-team {
     background-color:var(--neutral-bgc);
     padding: 94px 0px;
@@ -242,8 +286,21 @@ ul{
  .protfilio-container{
      margin-bottom: 94px;
  }   
-/*********************** Buttons */
+/***********************Projects Buttons */
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-item{
+    margin-right: 30px;
+}
+.pi-last{
+    margin-right: 0;
+}
+
 .button-list{
+    display: flex;
     margin-bottom: 34px;
     border: 1px var(--border);
 }
@@ -287,11 +344,7 @@ ul{
     font-size: 16px;
     line-height: 1.86;
 }
-.list{
-    /* padding: 0;
-    margin: 0;
-    list-style: none;
-} */
+
 
 
 
