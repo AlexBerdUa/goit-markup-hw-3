@@ -1,3 +1,4 @@
+/********************************** general */
 :root{
     --title-color:#212121;
     --text-color:#757575;
@@ -25,6 +26,7 @@ body{
     margin: 0;
     list-style: none;
 }
+
 address{
 font-style: normal;
 line-height: 1.71;
@@ -45,22 +47,17 @@ ul{
     padding: 0px 94px 215px 215px;
 }
 
-.con-head{
-    display: flex;
-    align-items: center;
-}
-
-/**************************** Nav */
+/**************************** hader */
 .page-header{
     padding-top: 24px;
     padding-bottom: 25px;
-    
 }
 
 .nav-con{
     display: flex;
     align-items: center;
 }
+
 .portfolio-ph{
     margin-bottom: 94px;
 }
@@ -74,9 +71,11 @@ ul{
     text-decoration: none;
     padding-inline-start: 40px;
  }
-.accent {
+
+ .accent {
     color: var(--logo-color);
 }
+
 .site-nav .link.current{
     color: var(--accent-color);
 }
@@ -93,9 +92,7 @@ ul{
     display: flex;
     margin-left: 93px;
 }
-.site-nav .item{
-    margin-right: 51px;
-} 
+
 .site-nav .item:last-child{
     margin-right: 0px;
 } 
