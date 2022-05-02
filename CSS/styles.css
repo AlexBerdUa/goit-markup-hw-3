@@ -11,8 +11,14 @@
 
 }
 
-*, ::after, ::before{
-    box-sizing: border-box;
+html{
+    border-style: border-box;
+}
+
+*, 
+*::after, 
+*::before{
+    box-sizing: inherit;
 }
 
 body{
@@ -62,15 +68,19 @@ img{
 
 /**************************** header */
 .sec-header{
-    padding-bottom: 0;
+    padding-bottom: 32px;
 }
 
-.page-header{
-    padding-top: 24px;
-    padding-bottom: 25px;
+.header-con{
+    display: flex;
 }
 
 .nav-con{
+    display: flex;
+    align-items: center;
+}
+
+.nav-adress{
     display: flex;
     align-items: center;
 }
@@ -86,7 +96,11 @@ img{
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
-    padding-inline-start: 40px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    padding-left: 215px;
+    padding-right: 93px;
+    
  }
 
  .accent {
@@ -118,25 +132,29 @@ img{
 }
 
 .site-nav .link{
-    display:block;
+    display:inline-block;
     padding-top: 32px;
     padding-bottom: 32px;
+    padding-right: 50px;
    
     color: var(--title-color);
     font-weight: 500;
     line-height: 1.1;
     text-decoration: none;
 }
+.site-nav .last-link{
+    padding-right: 0;
+}
 
 .contact-nav{
     display: flex;
-    margin-left: auto;
 }
-.contact-nav .item + .item{
-    margin-left: 50px;
-}
-.contact-nav .last-item{
-    margin-left: 50px;
+
+.nav-adress{
+    padding-left: 331px;
+    padding-right: 215px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .contact-nav .link{
@@ -154,7 +172,6 @@ img{
     padding-bottom: 280px;
     padding-right: 452px;
     padding-left: 452px;
-    tac
 }
 
 .order {
@@ -172,16 +189,20 @@ img{
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    /* margin-top: 0;
-    margin-bottom: 30px; */
+    
     width: 696px;
+    margin: 0;
+    margin-bottom: 30px;
+
     
 }
 .order-link {
     display: inline-block;
-    min-width: 200px;
     text-align: center;
-    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 32px;
+    padding-left: 32px;
 
 
     font-family: inherit;
@@ -196,14 +217,13 @@ img{
     cursor:pointer;
     border: 1px var(--border);
     border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .order-link:hover {
     color: var(--neutral-color);
 }
 /**************************** Features */
-.section-features{
-  
-}
+
 .features{
     display: flex;
     /* margin-bottom: 94px; */
@@ -365,7 +385,6 @@ img{
 
 .button{
     display: inline-block;
-    border-radius: 4px;
     padding: 6px,
     22px;
     text-align: center;
