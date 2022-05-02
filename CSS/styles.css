@@ -139,6 +139,14 @@ ul{
 }
 
 /**************************** Order */
+
+.order-con{
+    padding-top: 200px;
+    padding-bottom: 280px;
+    padding-right: 452px;
+    padding-left: 452px;
+}
+
 .order {
     background-color: var(--logo-color);
     text-align: center;
@@ -276,8 +284,8 @@ ul{
 /************************ Footer */
 .footer {
     background-color: var(--logo-color);
-    padding-top: 60px;
-    padding-bottom: 60px;
+    /* padding-top: 60px;
+    padding-bottom: 60px; */
 }
 .logo-footer{
     margin-bottom: 20px;
@@ -291,10 +299,12 @@ ul{
     text-decoration: none;
 }
 /************************portfolio */
-.portfolio-con{
-    margin-bottom: 94px;
-}
+
 .portfolio-buttons{
+   padding: 0;
+   margin-bottom: 94px;
+}
+.portfolio-con{
     margin-bottom: 94px;
 }
  
