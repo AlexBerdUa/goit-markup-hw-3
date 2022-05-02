@@ -41,6 +41,9 @@ ul{
     margin: 0 auto;
     
 }
+.section{
+    padding: 0px 94px 215px 215px;
+}
 
 .con-head{
     display: flex;
@@ -93,9 +96,9 @@ ul{
 .site-nav .item{
     margin-right: 51px;
 } 
-/* .site-nav .item:last-child{
+.site-nav .item:last-child{
     margin-right: 0px;
-} */
+} 
 .site-nav .item:not(:last-child){
     margin-right: 51px;
 }
@@ -115,9 +118,9 @@ ul{
     display: flex;
     margin-left: auto;
 }
-/* .contact-nav .item + .item{
+.contact-nav .item + .item{
     margin-left: 50px;
-} */
+}
 .contact-nav .last-item{
     margin-left: 50px;
 }
@@ -134,7 +137,6 @@ ul{
 .order {
     background-color: var(--logo-color);
     text-align: center;
-    margin-bottom: 94px;
 }
 .order-title {
     color: var(--neutral-color);
@@ -144,8 +146,8 @@ ul{
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 30px;
+    /* margin-top: 0;
+    margin-bottom: 30px; */
     width: 696px;
     
 }
@@ -169,31 +171,31 @@ ul{
 }
 /**************************** Features */
 .section-features{
-    margin-bottom: 94px;
+  
 }
 .features{
     display: flex;
-    margin-bottom: 94px;
+    /* margin-bottom: 94px; */
 }
 .title{
     color: --var(--title-color);
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 10px;
+    /* margin-top: 0;
+    margin-bottom: 10px; */
 }
 .text{
     color: var(--text-color);
     line-height: 1.71;
-    margin-top: 0;
-    margin-bottom: 94px;
+    /* margin-top: 0;
+    margin-bottom: 94px; */
 
     /* or 171% */
 }
 /**************************** Services */
 .section-services{
-    margin-bottom: 94px;
+  
 }
 .section-services .title-services{
     color: var(--title-color);
@@ -203,12 +205,12 @@ ul{
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    margin-bottom: 50px;
-    margin-top: 0;
+    /* margin-bottom: 50px;
+    margin-top: 0; */
 }
-.services{
+/* .services{
     margin-bottom: 94px;
-}
+} */
 .services-list{
     display: flex;
 }
@@ -231,8 +233,8 @@ ul{
 
 .section-team {
     background-color:var(--neutral-bgc);
-    padding: 94px 0px;
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
+    padding-bottom: 0;
 }
 .im-team{
     margin-bottom: 30px;
@@ -244,8 +246,8 @@ ul{
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    margin-bottom: 50px;
-    margin-top: 0;
+    /* margin-bottom: 50px;
+    margin-top: 0; */
 }
 .name-title{
     color: var(--title-color);
@@ -253,14 +255,14 @@ ul{
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 .team-text{
     color: var(--text-color);
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 .team-list{
     
@@ -350,10 +352,10 @@ ul{
     cursor:pointer;
 }
 /* Everything */
-.no-padding{
+/* .no-padding{
     padding-top: 0;
     padding-bottom: 0;
-}
+} */
 .project-title{
     font-weight: 700;
     font-size: 18px;
