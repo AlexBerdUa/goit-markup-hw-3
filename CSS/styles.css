@@ -60,8 +60,8 @@ img{
 }
 .section{
     /* padding: 94px 94px 215px 215px; */
-   padding-left: 215px;
-   padding-right: 215px;
+   /* padding-left: 215px;
+   padding-right: 215px; */
    padding-top: 0;
    padding-bottom: 94px;
 
@@ -79,6 +79,7 @@ img{
 .nav-con{
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 
 .nav-adress{
@@ -104,10 +105,11 @@ img{
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
-    padding-top: 24px;
+    /* padding-top: 24px;
     padding-bottom: 25px;
     padding-left: 215px;
-    padding-right: 93px;
+    padding-right: 93px; */
+    margin-right: 93px;
     
  }
 
@@ -123,13 +125,15 @@ img{
 .contact-nav .link:hover,
 .contact-nav .link:focus,
 .adress:hover,
-.adress:focus {
+.adress:focus,
+.footer-cn .link:hover,
+.footer-cn .link:focus {
     color: var(--accent-color);
 }
 
 .site-nav{
     display: flex;
-    margin-left: 93px;
+    margin-right: 331px;
 }
 
 .site-nav .item:last-child{
@@ -143,7 +147,7 @@ img{
     display:inline-block;
     padding-top: 32px;
     padding-bottom: 32px;
-    padding-right: 50px;
+    margin-right: 50px;
    
     color: var(--title-color);
     font-weight: 500;
@@ -151,26 +155,28 @@ img{
     text-decoration: none;
 }
 .site-nav .last-link{
-    padding-right: 0;
-}
-
-.contact-nav{
-    display: flex;
+    margin-right: 0;
 }
 
 .nav-adress{
-    padding-left: 331px;
-    padding-right: 215px;
+    /* padding-left: 331px;
+    padding-right: 215px; */
     padding-top: 32px;
     padding-bottom: 32px;
 }
 
 .contact-nav .link{
+    margin-right: 50px;
+    padding-bottom: 32px;
+    padding-top: 32px;
 
     color: var(--text-color);
     font-weight: 500;
     line-height: 1.1;
     text-decoration: none;
+}
+.contact-nav .last-itme{
+    margin-right: 215px;
 }
 
 /**************************** Order */
@@ -178,9 +184,10 @@ img{
 .order-con{
     /* padding-top: 200px;
     padding-bottom: 280px;
-    padding-right: 452px;
-    padding-left: 452px; */
-    margin: 0;
+    padding-right: 452px; */
+    /* padding-left: 452px; */
+    /* margin: 0; */
+    text-align: center;
 }
 
 .order {
@@ -188,13 +195,15 @@ img{
     text-align: center;
     padding-top: 200px;
     padding-bottom: 280px;
-    padding-right: 452px;
+    /* padding-right: 452px;
     padding-left: 452px;
     margin-bottom: 94px;
-    margin-top: 0;
+    margin-top: 0; */
 }
 .order-title {
-
+    margin: 0 auto;
+    width: 696px;
+    
     color: var(--neutral-color);
     font-weight: 900;
     font-size: 44px;
@@ -202,22 +211,23 @@ img{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     
-    width: 696px;
-    margin-right: 452px;
-    margin-left: 452px;
-    margin-bottom: 30px;
+    
+    /* margin-right: 452px;
+    margin-left: 452px; */
+    /* margin-bottom: 30px; */
 
     
 }
 .order-link {
-    text-align: center;
+    display: inline-block;
+    /* text-align: center; */
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 32px;
     padding-left: 32px;
-    margin-right: 732px;
-    margin-left: 732px;
-    width: 200px;
+    /* margin-right: 732px;
+    margin-left: 732px; */
+    /* width: 200px; */
 
 
     font-family: inherit;
@@ -226,8 +236,8 @@ img{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.86;
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     letter-spacing: 0.06em;
     cursor:pointer;
     border: 1px var(--border);
@@ -239,6 +249,10 @@ img{
 }
 /**************************** Features */
 
+.section-features{
+    padding-top: 94px;
+}
+
 .features{
     display: flex;
     padding-right: 30px;
@@ -248,6 +262,8 @@ img{
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
     /* margin-top: 0;
     margin-bottom: 10px; */
 }
@@ -258,14 +274,18 @@ img{
 
 .text{
     width: 270px;
+    margin-top: 0;
+    margin-bottom: 0;
 
 
     color: var(--text-color);
     line-height: 1.71;
-    /* margin-top: 0;
-    margin-bottom: 94px; */
-
-    /* or 171% */
+  
+.feature-item {
+    margin-right: 30px;
+}
+.last-feauture{
+    margin-right: 0;
 }
 /**************************** Services */
 
@@ -307,7 +327,7 @@ img{
     background-color:var(--neutral-bgc);
     /* margin-bottom: 0; */
     padding-bottom: 94px;
-    padding-top: 94px;
+    /* padding-top: 94px; */
 }
 .im-team{
     margin-bottom: 30px;
@@ -345,6 +365,9 @@ img{
     background-color: var(--logo-color);
     /* padding-top: 60px;
     padding-bottom: 60px; */
+}
+.footer-cn .link{
+    
 }
 .logo-footer{
     margin-bottom: 20px;
