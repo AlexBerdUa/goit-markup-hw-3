@@ -226,7 +226,7 @@ img{
 
 .features{
     display: flex;
-    /* margin-bottom: 94px; */
+    padding-right: 30px;
 }
 .title{
     color: --var(--title-color);
@@ -236,7 +236,15 @@ img{
     /* margin-top: 0;
     margin-bottom: 10px; */
 }
+
+.last-feauture{
+    padding-right: 0;
+}
+
 .text{
+    width: 270px;
+
+
     color: var(--text-color);
     line-height: 1.71;
     /* margin-top: 0;
