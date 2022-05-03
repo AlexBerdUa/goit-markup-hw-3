@@ -83,9 +83,14 @@ img{
 
 .nav-adress{
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    text-align: center;
     padding-right: 0;
+}
+.contact-nav{
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .portfolio-ph{
