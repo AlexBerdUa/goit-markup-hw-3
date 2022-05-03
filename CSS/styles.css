@@ -84,6 +84,8 @@ img{
 .nav-adress{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding-right: 0;
 }
 
 .portfolio-ph{
