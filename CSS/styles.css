@@ -393,7 +393,6 @@ img{
 .button-list {
     display: flex;
     margin-bottom: 34px;
-    border: 1px var(--border);
 }
 
 .button{
@@ -411,6 +410,7 @@ img{
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
+    border: none;
 }
 
 .button-last{
@@ -444,7 +444,7 @@ img{
     margin-bottom: 30px;
 
     background-color: var(--border);
-    ;
+    border: 1px var(--border);
 }
 
 .project-el:nth-child(3n){
