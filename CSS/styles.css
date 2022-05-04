@@ -61,9 +61,6 @@ img{
     
 }
 .section{
-    /* padding: 94px 94px 215px 215px; */
-   /* padding-left: 215px;
-   padding-right: 215px; */
    padding-top: 0;
    padding-bottom: 94px;
    box-sizing: border-box;
@@ -108,12 +105,8 @@ img{
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
-    /* padding-top: 24px;
-    padding-bottom: 25px;
-    padding-left: 215px;
-    padding-right: 93px; */
+   
     margin-right: 93px;
-    
  }
 
  .accent {
@@ -137,13 +130,14 @@ img{
 .site-nav{
     display: flex;
     margin-right: 331px;
+}
 
 .site-nav .link{
     display:inline-block;
     padding-top: 32px;
     padding-bottom: 32px;
     margin-right: 50px;
-   
+    
     color: var(--title-color);
     font-weight: 500;
     line-height: 1.1;
@@ -170,8 +164,8 @@ img{
     line-height: 1.1;
     text-decoration: none;
 }
-.contact-nav .last-itme{
-    margin-right: 215px;
+.contact-nav .last-item{
+    margin-right: 0;
 }
 
 /**************************** Hero */
@@ -275,6 +269,7 @@ img{
 
     color: var(--text-color);
     line-height: 1.71;
+}
   
 .feature-item {
     margin-right: 30px;
