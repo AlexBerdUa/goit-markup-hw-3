@@ -143,9 +143,6 @@ img{
     line-height: 1.1;
     text-decoration: none;
 }
-.site-nav .last-link{
-    margin-right: 0;
-}
 
 .nav-adress{
     /* padding-left: 331px;
@@ -246,6 +243,11 @@ img{
     display: flex;
     padding-right: 30px;
 }
+
+.features-list:last-child{
+    margin-right: 0;
+}
+
 .title{
     color: --var(--title-color);
     font-weight: 700;
@@ -274,9 +276,9 @@ img{
 .feature-item {
     margin-right: 30px;
 }
-.last-feauture{
+/* .last-feauture{
     margin-right: 0;
-}
+} */
 /**************************** Services */
 
 .sec-services .title-services{
@@ -300,9 +302,14 @@ img{
 .service-item{
     margin-right: 30px;
 }
-.si-last{
+
+/* .service-item:last-child{
     margin-right: 0;
-}
+} */
+
+/* .si-last{
+    margin-right: 0;
+} */
 /**************************** Team */
 .team-list{
     display: flex;
@@ -351,20 +358,27 @@ img{
 }
 
 /************************ Footer */
-.con-footer {
-    background-color: var(--logo-color);
-    /* padding-top: 60px;
-    padding-bottom: 60px; */
-}
 .footer{
     background-color: var(--logo-color);
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.con-footer{
+    margin-bottom: 20px;
 }
 
 .logo-footer{
     margin-bottom: 20px;
 }
 .footer-cn{
-    margin-bottom: 9px;
+    padding: 0;
+}
+.footer-cn .link{
+    color: var(--text-color);
+    font-weight: 500;
+    line-height: 1.1;
+    text-decoration: none;
 }
 .accent-footer,
 .adress{
