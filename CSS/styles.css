@@ -66,6 +66,7 @@ img{
    padding-right: 215px; */
    padding-top: 0;
    padding-bottom: 94px;
+   box-sizing: border-box;
 
 }
 
@@ -192,7 +193,7 @@ img{
     text-align: center;
 }
 
-.hero {
+.hero-sec {
     background-color: var(--logo-color);
     text-align: center;
     padding-top: 200px;
@@ -251,11 +252,11 @@ img{
 }
 /**************************** Features */
 
-.section-features{
+.features-sec{
     padding-top: 94px;
 }
 
-.features{
+.features-list{
     display: flex;
     padding-right: 30px;
 }
@@ -361,15 +362,17 @@ img{
     text-align: center;
     /* margin-bottom: 30px; */
 }
-.team-list{
-    
-}
+
 /************************ Footer */
 .con-footer {
     background-color: var(--logo-color);
     /* padding-top: 60px;
     padding-bottom: 60px; */
 }
+.footer{
+    background-color: var(--logo-color);
+}
+
 .logo-footer{
     margin-bottom: 20px;
 }
