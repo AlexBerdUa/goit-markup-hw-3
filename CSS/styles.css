@@ -197,23 +197,16 @@ img{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     
-    
-    /* margin-right: 452px;
-    margin-left: 452px; */
-    /* margin-bottom: 30px; */
 
     
 }
 .hero-link {
     display: inline-block;
-    /* text-align: center; */
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 32px;
     padding-left: 32px;
-    /* margin-right: 732px;
-    margin-left: 732px; */
-    /* width: 200px; */
+   
 
 
     font-family: inherit;
@@ -222,8 +215,6 @@ img{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.86;
-    /* display: flex;
-    align-items: center; */
     letter-spacing: 0.06em;
     cursor:pointer;
     border: 1px var(--border);
@@ -392,8 +383,43 @@ img{
    margin-bottom: 94px;
     background-color: var(--bgc-portfolio);
 }
+
+.buttons-con{
+    margin-top: 94px;
+    padding-left: 494px;
+    padding-right: 495px;
+}
+
+.button-list {
+    display: flex;
+    margin-bottom: 34px;
+    border: 1px var(--border);
+}
+
+.button{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 22px;
+    padding-left: 22px;
+    margin-right: 8px;
+
+    font-family: 'Roboto',
+    sans-serif;
+    background-color: var(--neutral-bgc);
+    color: var(--title-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+}
+
+.button-last{
+    margin-right: 0;
+}
+
 .portfolio-con{
     margin-bottom: 94px;
+    margin-top: 94px;
 }
 
  
@@ -428,32 +454,6 @@ img{
     margin-bottom: 0;
 }
 
-.button-list{
-    display: flex;
-    margin-bottom: 34px;
-    border: 1px var(--border);
-}
-
-.button{
-    display: inline-block;
-    padding: 6px,
-    22px;
-    text-align: center;
-    min-width: 73px;
-    border: 1px solid var(--border);
-    border-radius: 4px;
-
-    font-family: 'Roboto',
-    sans-serif;
-    background-color: var(--neutral-bgc);
-    color: var(--title-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.63;
-    text-align: center;
-
-    
-}
 .button:hover,
 .button:focus {
     background-color: var(--accent-color);
