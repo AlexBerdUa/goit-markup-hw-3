@@ -289,9 +289,14 @@ img{
 }
 /**************************** Services */
 
-.section-services .title-services{
+.sec-services .title-services{
     color: var(--title-color);
 }
+
+.services-con{
+    margin-right: 0;
+}
+
 .title-services {
     margin-bottom: 50px;
 
