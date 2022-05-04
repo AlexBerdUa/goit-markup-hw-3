@@ -8,6 +8,7 @@
     --neutral-bgc: #F5F4FA;
     --border: #EEEEEE;
     --bgc-portfolio: #E5E5E5;
+    ---border-portfolio: #ECECEC;
 
 }
 
@@ -70,6 +71,7 @@ img{
 /**************************** header */
 .sec-header{
     padding-bottom: 32px;
+    border-bottom: 1px solid var(---border-portfolio);
 }
 
 .header-con{
@@ -411,6 +413,7 @@ img{
     line-height: 1.63;
     text-align: center;
     border: none;
+    border-radius: 4;
 }
 
 .button-last{
@@ -443,7 +446,7 @@ img{
     margin-right: 30px;
     margin-bottom: 30px;
 
-    background-color: var(--border);
+    background-color: var(--neutral-color);
     border: 1px var(--border);
 }
 
