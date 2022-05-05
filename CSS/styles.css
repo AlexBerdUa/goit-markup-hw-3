@@ -8,7 +8,8 @@
     --neutral-bgc: #F5F4FA;
     --border: #EEEEEE;
     --bgc-portfolio: #E5E5E5;
-    ---border-portfolio: #ECECEC;
+    --border-portfolio: #ECECEC;
+    --footer-white: rgba(255, 255, 255, 0.6);
 
 }
 
@@ -78,7 +79,7 @@ img{
 /**************************** header */
 .sec-header{
     padding-bottom: 32px;
-    border-bottom: 1px solid var(---border-portfolio);
+    border-bottom: 1px solid var(--border-portfolio);
 }
 
 .header-con{
@@ -160,10 +161,15 @@ img{
     padding-bottom: 32px;
 }
 
-.contact-nav .link{
-    margin-right: 50px;
+.contact-nav{
     padding-bottom: 32px;
     padding-top: 32px;
+    display: block;
+    justify-content: center;
+}
+
+.contact-nav .link{
+    margin-right: 50px;
 
     color: var(--text-color);
     font-weight: 500;
@@ -177,11 +183,6 @@ img{
 /**************************** Hero */
 
 .hero-con{
-    /* padding-top: 200px;
-    padding-bottom: 280px;
-    padding-right: 452px; */
-    /* padding-left: 452px; */
-    /* margin: 0; */
     text-align: center;
 }
 
@@ -272,7 +273,7 @@ img{
 
 .title-services {
     margin-bottom: 50px;
-
+    margin-top: 0;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -285,6 +286,10 @@ img{
 }
 .service-item{
     margin-right: 30px;
+}
+
+.si-last{
+    margin-right: 0;
 }
 
 /* .service-item:last-child{
@@ -310,6 +315,7 @@ img{
     background-color:var(--neutral-bgc);
     /* margin-bottom: 0; */
     padding-bottom: 94px;
+    padding-top: 94px;
     /* padding-top: 94px; */
 }
 .im-team{
@@ -322,8 +328,8 @@ img{
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    /* margin-bottom: 50px;
-    margin-top: 0; */
+    
+    margin-top: 0;
 }
 .name-title{
     color: var(--title-color);
@@ -348,18 +354,12 @@ img{
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.con-footer{
-    margin-bottom: 20px;
-}
 
-.logo-footer{
-    margin-bottom: 20px;
-}
 .footer-cn{
     padding: 0;
 }
 .footer-cn .link{
-    color: var(--text-color);
+    color: var(--footer-white);
     font-weight: 500;
     line-height: 1.1;
     text-decoration: none;
@@ -369,6 +369,29 @@ img{
     color: var(--neutral-color);
     text-decoration: none;
 }
+
+.footer-cn{
+    margin-top: 0;
+}
+
+/* .logo-footer{
+    margin-bottom: 20;
+} */
+
+.adress{
+    margin-bottom: 0;
+}
+
+.adress-block{
+    margin-top: 20px;
+}
+
+.mail-link{
+    margin-bottom: 0;
+}
+
+
+
 /************************portfolio */
 
 .portfolio-buttons{
@@ -379,13 +402,13 @@ img{
 
 .buttons-con{
     margin-top: 94px;
-    padding-left: 494px;
-    padding-right: 495px;
+   
 }
 
 .button-list {
     display: flex;
     margin-bottom: 34px;
+    justify-content: center;
 }
 
 .button{
