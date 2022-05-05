@@ -139,7 +139,6 @@ img{
 
 .site-nav{
     display: flex;
-    margin-right: 331px;
 }
 
 .site-nav .link{
@@ -164,18 +163,22 @@ img{
 .contact-nav{
     padding-bottom: 32px;
     padding-top: 32px;
-    display: block;
+    display: flex;
     justify-content: center;
 }
 
 .contact-nav .link{
-    margin-right: 50px;
+    /* margin-right: 50px; */
 
     color: var(--text-color);
     font-weight: 500;
     line-height: 1.1;
     text-decoration: none;
 }
+.item{
+    margin-right: 50px;
+}
+
 .contact-nav .last-item{
     margin-right: 0;
 }
@@ -374,12 +377,8 @@ img{
     margin-top: 0;
 }
 
-/* .logo-footer{
-    margin-bottom: 20;
-} */
-
 .adress{
-    margin-bottom: 0;
+    margin-bottom: 9px;
 }
 
 .adress-block{
@@ -387,7 +386,7 @@ img{
 }
 
 .mail-link{
-    margin-bottom: 0;
+    margin-bottom: 9;
 }
 
 
