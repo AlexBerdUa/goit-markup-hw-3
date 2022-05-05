@@ -55,7 +55,7 @@ img{
 
 .container{
     width: 1200px;
-    padding: 0 15px;
+    padding: 0 auto;
     margin: 0 auto;
     display: block;
    
@@ -66,6 +66,13 @@ img{
    padding-bottom: 94px;
    box-sizing: border-box;
 
+}
+
+.title {
+    color: --var(--title-color);
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 
 /**************************** header */
@@ -182,15 +189,13 @@ img{
     background-color: var(--logo-color);
     text-align: center;
     padding-top: 200px;
-    padding-bottom: 280px;
-    /* padding-right: 452px;
-    padding-left: 452px;
-    margin-bottom: 94px;
-    margin-top: 0; */
+    padding-bottom: 200px;
 }
 .hero-title {
-    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
     width: 696px;
+    margin-bottom: 30px;
     
     color: var(--neutral-color);
     font-weight: 900;
@@ -198,9 +203,6 @@ img{
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    
-
-    
 }
 .hero-link {
     display: inline-block;
@@ -239,17 +241,6 @@ img{
 
 .features-list:last-child{
     margin-right: 0;
-}
-
-.title{
-    color: --var(--title-color);
-    font-weight: 700;
-    line-height: 1.14;
-    text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 10px;
-    /* margin-top: 0;
-    margin-bottom: 10px; */
 }
 
 .last-feauture{
