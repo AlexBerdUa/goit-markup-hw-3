@@ -154,8 +154,6 @@ img{
 }
 
 .nav-adress{
-    /* padding-left: 331px;
-    padding-right: 215px; */
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -168,18 +166,24 @@ img{
 }
 
 .contact-nav .link{
-    /* margin-right: 50px; */
 
     color: var(--text-color);
     font-weight: 500;
     line-height: 1.1;
     text-decoration: none;
 }
-.item{
+
+.header-list{
     margin-right: 50px;
 }
 
-.contact-nav .last-item{
+.header-list:last-child{
+    margin-right: 0;
+}
+.contact-list{
+    margin-right: 50px;
+}
+.contact-list:last-child{
     margin-right: 0;
 }
 
