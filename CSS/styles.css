@@ -13,6 +13,20 @@
 
 }
 
+h3{
+    font-size: 14;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     color: var(--title-color);
@@ -103,8 +117,6 @@ img{
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
-   
-    margin-right: 93px;
  }
 
  .accent {
@@ -127,6 +139,7 @@ img{
 
 .site-nav{
     display: flex;
+    margin-left: 93px;
 }
 
 .site-nav .link{
@@ -163,13 +176,14 @@ img{
     text-decoration: none;
 }
 
-.header-list{
+
+.item-header{
     margin-right: 50px;
 }
-
-.header-list:last-child{
+.item-header:last-child{
     margin-right: 0;
 }
+
 .contact-list{
     margin-right: 50px;
 }
@@ -183,17 +197,16 @@ img{
     text-align: center;
 }
 
-.hero-sec {
+.hero {
     background-color: var(--logo-color);
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
 }
 .hero-title {
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
     width: 696px;
-    margin-bottom: 30px;
+    
     
     color: var(--neutral-color);
     font-weight: 900;
@@ -203,6 +216,7 @@ img{
 }
 .hero-link {
     display: inline-block;
+    margin-top: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 32px;
@@ -233,12 +247,8 @@ img{
 
 .features-list{
     display: flex;
-    padding-right: 30px;
 }
 
-.features-list:last-child{
-    margin-right: 0;
-}
 
 .last-feauture{
     padding-right: 0;
@@ -257,10 +267,16 @@ img{
 .feature-item {
     margin-right: 30px;
 }
-/* .last-feauture{
+
+.feature-item:last-child{
     margin-right: 0;
-} */
+}
+
 /**************************** Services */
+
+.sec-services{
+    padding-top: 0;
+}
 
 .sec-services .title-services{
     color: var(--title-color);
@@ -284,17 +300,10 @@ img{
     margin-right: 30px;
 }
 
-.si-last{
+.service-item:last-child{
     margin-right: 0;
 }
 
-/* .service-item:last-child{
-    margin-right: 0;
-} */
-
-/* .si-last{
-    margin-right: 0;
-} */
 /**************************** Team */
 .team-list{
     display: flex;
@@ -303,19 +312,12 @@ img{
     margin-right: 30px;
     background-color: var(--neutral-color);
 }
-.ti-last{
+.team-item:last-child{
     margin-right: 0;
 }
 
 .section-team {
     background-color:var(--neutral-bgc);
-    /* margin-bottom: 0; */
-    padding-bottom: 94px;
-    padding-top: 94px;
-    /* padding-top: 94px; */
-}
-.im-team{
-    margin-bottom: 30px;
 }
 
 .team-title{
@@ -324,23 +326,28 @@ img{
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    
-    margin-top: 0;
+    margin-bottom: 50px;
 }
 .name-title{
     color: var(--title-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
+    
    
 }
 .team-text{
     color: var(--text-color);
     font-size: 16px;
     line-height: 1.19;
+    
+}
+
+.im-team{
     text-align: center;
-   
+    padding-top: 30px;
+    padding-bottom: 30px;
+
 }
 
 /************************ Footer */
@@ -351,9 +358,6 @@ img{
     padding-bottom: 60px;
 }
 
-.footer-cn{
-    padding: 0;
-}
 .footer-cn .link{
     color: var(--footer-white);
     font-weight: 500;
@@ -366,9 +370,6 @@ img{
     text-decoration: none;
 }
 
-.footer-cn{
-    margin-top: 0;
-}
 
 .adress{
     margin-bottom: 9px;
@@ -378,22 +379,16 @@ img{
     margin-top: 20px;
 }
 
-.mail-link{
-    margin-bottom: 9;
+.adress-item{
+    margin-bottom: 9px;
+}
+.adress-item:last-child{
+    margin-bottom: 0;
 }
 
 
 
 /************************portfolio */
-
-.portfolio-buttons{
-   padding: 0;
-   margin-bottom: 94px;
-}
-
-.buttons-con{
-    margin-top: 94px;
-}
 
 .header-con{
     border-bottom: 1px solid var(--border-portfolio);
@@ -402,13 +397,12 @@ img{
 .button-list {
     display: flex;
     justify-content: center;
+    margin-bottom: 94px;
 }
 
 .button{
     display: inline-block;
     padding: 6px 22px 6px 22px;
-    margin-right: 8px;
-    margin-bottom: 50px;
 
     font-family: 'Roboto',
     sans-serif;
@@ -422,14 +416,20 @@ img{
     border-radius: 4;
 }
 
-.button:last-child{
+.button-item{
+    margin-right: 30px;
+}
+
+.button-item:nth-child(3n){
     margin-right: 0;
 }
 
-.portfolio-con{
-    margin-bottom: 94px;
-    margin-top: 94px;
+.button-item:nth-child(-n+3){
+    margin-bottom: 0;
 }
+
+
+
 
  
 /***********************Projects Buttons */
@@ -475,13 +475,16 @@ img{
     font-size: 18px;
     line-height: 2.00;
     letter-spacing: 0.06em;
-    vertical-align: middle;
 }
 .project-text{
     color: var(--text-color);
     font-size: 16px;
     line-height: 1.86;
-    vertical-align: middle;
+}
+
+.project-tt{
+   padding: 22px 24px;
+
 }
 
 
