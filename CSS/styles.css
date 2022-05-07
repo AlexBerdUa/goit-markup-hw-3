@@ -138,7 +138,7 @@ img{
     color: var(--logo-color);
 }
 
- .current {
+.current {
   color: var(--accent-color);
 }
 
