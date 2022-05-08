@@ -91,6 +91,10 @@ img{
     font-size: 14px;
 }
 
+.current {
+    color: var(--accent-color);
+}
+
 /**************************** header */
 .header{
     border-bottom: 1px solid var(--border-portfolio);
@@ -137,12 +141,6 @@ img{
  .accent {
     color: var(--logo-color);
 }
-
-.current {
-  color: var(--accent-color);
-}
-
-
 
 .site-nav .link:hover,
 .site-nav .link:focus,
